@@ -1,0 +1,239 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 0.00047259458655141666 1.473585988105615e-05 2.39675623809096
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 1.25 1
+}
+Wall {
+  translation -0.07 0.35 0
+  rotation 0 0 1 -1.5707953071795862
+  size 0.01 0.8 0.1
+}
+Wall {
+  translation 5.19723e-15 -0.35 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(1)"
+  size 0.01 0.95 0.1
+}
+Wall {
+  translation -0.47 0 0
+  name "wall(2)"
+  size 0.01 0.7 0.1
+}
+Wall {
+  translation 0.47 0.076 0
+  name "wall(3)"
+  size 0.01 0.86 0.1
+}
+Wall {
+  translation 0.33 0.06 0
+  name "wall(4)"
+  size 0.01 0.58 0.1
+}
+Wall {
+  translation -0.00999979 -0.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(5)"
+  size 0.01 0.69 0.1
+}
+Wall {
+  translation -0.35 0 0
+  name "wall(6)"
+  size 0.01 0.46 0.1
+}
+Wall {
+  translation -0.17 -0.05 0
+  name "wall(10)"
+  size 0.01 0.34 0.1
+}
+Wall {
+  translation -0.05 0.06 0
+  name "wall(11)"
+  size 0.01 0.35 0.1
+}
+Wall {
+  translation -0.11 0.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(7)"
+  size 0.01 0.49 0.1
+}
+Wall {
+  translation 0.04 -0.11 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(9)"
+  size 0.01 0.18 0.1
+}
+Wall {
+  translation -0.27 0.115 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(12)"
+  size 0.01 0.19 0.1
+}
+Wall {
+  translation 0.13 0 0
+  name "wall(8)"
+  size 0.01 0.46 0.1
+}
+Wall {
+  translation 0.567071 -0.440065 0
+  rotation 0 0 1 -0.785395307179586
+  name "wallpojok"
+  size 0.01 0.18 0.1
+}
+Wall {
+  translation -0.564292 0.436739 0
+  rotation 0 0 1 -0.785395307179586
+  name "wallpojok(1)"
+  size 0.01 0.18 0.1
+}
+Wall {
+  translation -0.572789 -0.503202 0
+  rotation 0 0 1 1.309
+  name "wallpojok(2)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.582 -0.499928 0
+  rotation 0 0 1 1.1781003061004252
+  name "wallpojok(11)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.591 -0.4955 0
+  rotation 0 0 1 1.0472006938995748
+  name "wallpojok(12)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.602 -0.485108 0
+  rotation 0 0 1 0.6544996938995746
+  name "wallpojok(13)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.606 -0.479 0
+  rotation 0 0 1 0.5236003061004253
+  name "wallpojok(14)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.61 -0.471 0
+  rotation 0 0 1 0.3927003061004253
+  name "wallpojok(16)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.613 -0.462 0
+  rotation 0 0 1 0.26180030610042526
+  name "wallpojok(17)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.615 -0.453 0
+  rotation 0 0 1 0.13090030610042527
+  name "wallpojok(18)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.6156 -0.4433 0
+  name "wallpojok(19)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.6156 -0.3833 0
+  name "wallpojok(20)"
+  size 0.01 0.12 0.1
+}
+Wall {
+  translation -0.597 -0.491 0
+  rotation 0 0 1 0.7854003061004253
+  name "wallpojok(15)"
+  size 0.01 0.01 0.1
+}
+Wall {
+  translation -0.422872 -0.298646 0
+  rotation 0 0 1 0.785401
+  name "wallpojok(3)"
+  size 0.01 0.13 0.1
+}
+Wall {
+  translation -0.415801 0.302391 0
+  rotation 0 0 1 -0.785395307179586
+  name "wallpojok(4)"
+  size 0.01 0.14 0.1
+}
+Wall {
+  translation 0.418582 -0.291574 0
+  rotation 0 0 1 -0.785395307179586
+  name "wallpojok(5)"
+  size 0.01 0.14 0.1
+}
+Wall {
+  translation 0.263016 0.28825 0
+  rotation 0 0 1 0.785401
+  name "wallpojok(6)"
+  size 0.01 0.18 0.1
+}
+Wall {
+  translation 0.291304 -0.19258 0
+  rotation 0 0 1 -0.785395307179586
+  name "wallpojok(7)"
+  size 0.01 0.11 0.1
+}
+Wall {
+  translation 0.171097 -0.185509 0
+  rotation 0 0 1 -2.3561953071795863
+  name "wallpojok(8)"
+  size 0.01 0.11 0.1
+}
+Wall {
+  translation -0.14003 -0.199651 0
+  rotation 0 0 1 -2.3561953071795863
+  name "wallpojok(21)"
+  size 0.01 0.11 0.1
+}
+Wall {
+  translation -0.0763906 0.203399 0
+  rotation 0 0 1 -2.3561953071795863
+  name "wallpojok(22)"
+  size 0.01 0.08 0.1
+}
+Wall {
+  translation 0.263016 0.28825 0
+  rotation 0 0 1 0.785401
+  name "wallpojok(9)"
+  size 0.01 0.13 0.1
+}
+Wall {
+  translation 0.411507 0.450883 0
+  rotation 0 0 1 0.785401
+  name "wallpojok(10)"
+  size 0.01 0.15 0.1
+}
+E-puck {
+  translation 0.565183 0.419483 0.000483714
+  rotation -0.0006794543341109583 -0.0007448983662920296 0.9999994917339867 -1.6098753071795864
+  controller "python_TugasAkhir"
+  controllerArgs [
+    ""
+  ]
+  turretSlot [
+    GPS {
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/obstacles/protos/OilBarrel.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.53679839277259 0.49194845791180036 -0.6854445274965479 2.019834117343587
+  position -0.10306762223373252 0.46352902642267824 1.7082806663080539
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Wall {
+  translation 0.0721191 0.281786 0
+  rotation 0 0 -1 -1.308975307179586
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.245394 0.252054 0
+  rotation 0 0 -1 -1.5707853071795865
+  name "wall(1)"
+  size 0.01 0.1 0.1
+}
+Wall {
+  translation 0.0577235 -0.110612 0
+  rotation 0 0 -1 2.8798053071795864
+  name "wall(6)"
+  size 0.01 0.45 0.1
+}
+Wall {
+  translation 0.249706 -0.131641 0
+  rotation 0 0 -1 2.8798053071795864
+  name "wall(9)"
+  size 0.01 0.32 0.1
+}
+Wall {
+  translation 0.204183 -0.30948 0
+  rotation 0 0 -1 1.30901
+  name "wall(10)"
+  size 0.01 0.19 0.1
+}
+Wall {
+  translation 0.0549512 0.059465 0
+  rotation 0 0 1 2.87978
+  name "wall(8)"
+  size 0.01 0.14 0.1
+}
+Wall {
+  translation 0.139607 -0.302048 0
+  rotation 0 0 1 -2.094405307179586
+  name "wall(11)"
+  size 0.01 0.08 0.1
+}
+Wall {
+  translation 0.259721 -0.262286 0
+  rotation 0 0 -1 0.26181
+  name "wall(12)"
+  size 0.01 0.08 0.1
+}
+Wall {
+  translation 0.300528 0.220932 0
+  rotation 0 0 1 -2.8798053071795864
+  name "wall(7)"
+  size 0.01 0.07 0.1
+}
+Wall {
+  translation 0.443382 0.116193 0
+  rotation 0 0 1 2.35618
+  name "wall(3)"
+  size 0.01 0.1 0.1
+}
+Wall {
+  translation 0.350767 0.0603199 0
+  rotation 0 0 1 1.83258
+  name "wall(4)"
+  size 0.01 0.3 0.1
+}
+Wall {
+  translation 0.152916 0.141894 0
+  rotation 0 0 1 -1.3090153071795863
+  name "wall(5)"
+  size 0.01 0.33 0.1
+}
+Wall {
+  translation -0.0446783 0.407289 0
+  rotation 0 0 1 3.14158
+  name "wall(2)"
+  size 0.01 0.18 0.1
+}
+E-puck {
+  translation 0 0.43 0
+  controller "python_TugasAkhir"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+CircleArena {
+  radius 0.5
+}
+OilBarrel {
+  translation 0.21 0.46 0.03
+  height 0.1
+  radius 0.1
+}
